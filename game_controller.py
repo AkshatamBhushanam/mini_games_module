@@ -3,6 +3,7 @@ import memorize as memo
 import tic_tac_toe as tic
 import guess_number as gn
 import hangman as hg
+import memory_cards as mc
 
 class GameController:
 
@@ -30,7 +31,10 @@ class GameController:
             elif "tictac" in user_choice:
                 tic.TicTacToe(player1, player2)
 
-            elif "memo" in user_choice:
+            elif "memorycard" in user_choice:
+                mc.MemoryCardsGame(player1, player2)
+
+            elif "memory" in user_choice:
                 memo.Memorize()
 
             elif "guess" in user_choice:
@@ -38,6 +42,7 @@ class GameController:
 
             elif "hangman" in user_choice:
                 hg.Hangman()
+
 
             elif "exit" in user_choice:
                 exit()
