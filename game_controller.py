@@ -21,7 +21,7 @@ class GameController:
         user_choice = None
 
         while user_choice != "no":
-            print("RockPaperScissor, hangman, TicTacToe, memorize, GuessTheNumber")
+            print("RockPaperScissor, hangman, TicTacToe, memorize, GuessTheNumber, memorycard")
             user_choice = input("Which game you want to play now?: ").lower()
             user_choice = user_choice.replace(" ", "")
             
@@ -34,7 +34,7 @@ class GameController:
             elif "memorycard" in user_choice:
                 mc.MemoryCardsGame(player1, player2)
 
-            elif "memory" in user_choice:
+            elif "memorize" in user_choice:
                 memo.Memorize()
 
             elif "guess" in user_choice:
