@@ -84,7 +84,7 @@ class MemoryCardsGame:
             print(f"{self.player2} wins the game")
 
 if __name__ == "__main__":
-    game = MemoryCardsGame("Akshat", "Jyotsna")
+    game = MemoryCardsGame("Akshat", "Prithu")
 
 
         

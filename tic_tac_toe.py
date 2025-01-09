@@ -150,4 +150,4 @@ class TicTacToe:
 
 
 if __name__ == "__main__":
-    TicTacToe("Askhat", "Jyotsna")
+    TicTacToe("Askhat", "Prithu")
